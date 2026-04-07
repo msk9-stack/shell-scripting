@@ -2,16 +2,17 @@
 
 # This script demonstrates the use of variables in shell scripting
 
-START_TIME=date
+START_TIME=$(date +%s)
 
-echo "This is the start time : ${START_TIME} from now"
+echo "Start time: $(date)"
 
-# 10 scripts are executed here
+# Simulating some work (sleep for demo)
+sleep 2
 
-END_TIME=date
+END_TIME=$(date +%s)
 
-echo "This is the end time : ${END_TIME} till now"
+echo "End time: $(date)"
 
 TOTAL_DURATION=$((END_TIME - START_TIME))
 
-echo "Total duration of the script execution : ${TOTAL_DURATION} in total"
+echo "Total duration of the script execution: ${TOTAL_DURATION} seconds"
