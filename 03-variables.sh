@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script demonstrates the use of variables in shell scripting
+#This script demonstrates the use of variables in shell scripting
 
 echo "enter your password"
 read -s $password
@@ -11,8 +11,7 @@ START_TIME=$(date +%s)
 
 echo "Start time: $(date)"
 
-# Simulating some work (sleep for demo)
-sleep 2
+#Simulating some work 
 
 END_TIME=$(date +%s)
 
