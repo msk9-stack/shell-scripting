@@ -2,6 +2,10 @@
 
 # This script demonstrates the use of variables in shell scripting
 
+read -s $password
+
+echo "Password entered: $password"
+
 START_TIME=$(date +%s)
 
 echo "Start time: $(date)"
