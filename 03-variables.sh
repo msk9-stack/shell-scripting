@@ -2,6 +2,7 @@
 
 # This script demonstrates the use of variables in shell scripting
 
+echo "enter your password"
 read -s $password
 
 echo "Password entered: $password"
