@@ -13,3 +13,5 @@ echo "who is the coach: $USER"
 echo "where is the match: $PWD"
 
 echo "whats the script name: $0"
+
+echo "PID of the file: $$"
