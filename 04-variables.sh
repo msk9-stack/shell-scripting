@@ -8,7 +8,7 @@ sleep 5
 
 END_TIME=$(date +%s)
 
-TOTAL_DURATION=$(($START_TIME - $END_TIME))
+TOTAL_DURATION=$(($END_TIME - $START_TIME))
 
 echo "Task duration: $TOTAL_DURATION seconds" 
 
