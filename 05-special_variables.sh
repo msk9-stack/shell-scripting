@@ -15,3 +15,6 @@ echo "where is the match: $PWD"
 echo "whats the script name: $0"
 
 echo "PID of the file: $$"
+
+echo "home directory of the user: $HOME"
+
