@@ -18,3 +18,7 @@ echo "PID of the file: $$"
 
 echo "home directory of the user: $HOME"
 
+echo "last pid of the script: $!"
+
+
+
