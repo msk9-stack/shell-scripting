@@ -2,10 +2,10 @@
 
 #Let's do some maths
 
-kohil_Test_centries=$(32)
-kohil_oneday_centries=$(54)
+kohli_Test_centries=$(32)
+kohli_oneday_centries=$(54)
 
-kohli_total_centuries=$(($kohil_Test_centries + kohil_oneday_centries=$))
+kohli_total_centuries=$(($kohli_Test_centries + $kohli_oneday_centries))
 
-echo "toatal centuries of kohli is: ${kohli_total_centuries}"
+echo "total centuries of kohli is: ${kohli_total_centuries}"
 
