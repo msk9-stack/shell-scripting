@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER=$1
+NUMBER=$10
 
 # I want to compare two numbers, lesse than or greater tham
 
