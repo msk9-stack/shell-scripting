@@ -4,10 +4,10 @@ NUMBER=$1
 
 # I want to compare two numbers, lesse than or greater tham
 
-if [ ! $NUMBER -lt 1.5 ]; then
-    echo "number is $NUMBER less than 1.5"
+if [ $NUMBER -lt 2 ]; then
+    echo "number is $NUMBER less than 2"
 else
-    echo "number is $NUMBER greater than 1.5"
+    echo "number is $NUMBER greater than 2"
 fi
 
 # -lt is less than
