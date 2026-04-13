@@ -1,13 +1,11 @@
 #!/bin/bash
 
-NUMBER=$3
+VALUE=$1
 
-# I want to compare two numbers, lesse than or greater tham
-
-if [ $NUMBER -lt 2 ]; then
-    echo "number is $NUMBER less than 2"
+if [ $VALUE=$1 -lt 10]; then
+    echo " the value $VALUE is less than 10"
 else
-    echo "number is $NUMBER greater than 2"
+    echo "the value $VALUE is greter than or equal to 10"
 fi
 
 # -lt is less than
