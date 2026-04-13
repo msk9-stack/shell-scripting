@@ -2,7 +2,7 @@
 
 VALUE=$1
 
-if [ ! $VALUE=$1 -lt 10]; then
+if [ "$VALUE=$1" -lt 10 ]; then
     echo " the value $VALUE is less than 10"
 else
     echo "the value $VALUE is greter than or equal to 10"
