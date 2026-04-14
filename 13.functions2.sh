@@ -9,10 +9,10 @@ fi
 
 VALIDATION(){
 if [ $1 -ne 0 ]; then
-	echo "ERROR:: script failed $2"
+	echo "ERROR:: script removing failed $2"
 	exit 1
 else
-	echo "SUCCESS:: installed successfully $2"
+	echo "SUCCESS:: removed successfully $2"
 fi
 }
 
