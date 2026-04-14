@@ -8,12 +8,12 @@ if [ $USERID -ne 0 ]; then
 fi
 
 VALIDATION(){
-if [ $1 -ne 0 ]; then
-	echo "ERROR:: script removing failed $2"
-	exit 1
-else
-	echo "SUCCESS:: removed successfully $2"
-fi
+    if [ "$1" -ne 0 ]; then
+	    echo "ERROR:: script removing failed $2"
+	    exit 1
+    else
+	    echo "SUCCESS:: removed successfully $2"
+    fi
 }
 
 dnf remove mysql -y
