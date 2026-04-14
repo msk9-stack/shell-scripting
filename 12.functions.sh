@@ -1,5 +1,5 @@
 #!/bin/bash
 
 name(){
-	"welcome to devops"
+	echo "welcome to devops"
 }
