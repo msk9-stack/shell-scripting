@@ -21,3 +21,5 @@ script $? "mysql"
 
 dnf install python3 -y
 script $? "python3"
+
+
