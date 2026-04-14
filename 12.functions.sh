@@ -2,8 +2,8 @@
 
 USERID=$(id -u)
 
-if [ $USERID -ne 0]: then
-	echo "ERROR:: this script need root user to execute"
+if [ $USERID -ne 0 ]; then
+	echo "ERROR:: this script needs root user to execute"
 	exit 1
 fi
 
