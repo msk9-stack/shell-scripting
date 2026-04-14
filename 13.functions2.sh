@@ -15,9 +15,9 @@ else
 	echo "SUCCESS:: installed successfully $2"
 fi
 }
-		
+
 dnf remove mysql -y
-VAKIDATION $? "mysql"
+VALIDATION $? "mysql"
 
 dnf remove python3 -y
 VALIDATION $? "python3"				
