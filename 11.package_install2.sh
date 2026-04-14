@@ -5,11 +5,11 @@ echo "this script is for installing packages with root user"
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
-	echo "ERROR: run this script as root user $USERID"
+	echo "ERROR: run this script as root user 0"
 	exit 1
 fi
 
-dnf remove mysql -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]; then
 	echo "ERROR: script is failed to execute"
