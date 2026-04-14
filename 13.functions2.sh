@@ -14,6 +14,7 @@ if [ $1 -ne 0 ]; then
 else
 	echo "SUCCESS:: installed successfully $2"
 fi
+}
 		
 dnf remove mysql -y
 VAKIDATION $? "mysql"
