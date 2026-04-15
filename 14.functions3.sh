@@ -29,6 +29,6 @@ echo "installing mysql..................."
 dnf install mysql -y
 script $? "mysql"
 
-ech "installing python3..................."
+echo "installing python3..................."
 dnf install python3 -y
 script $? "python3"
