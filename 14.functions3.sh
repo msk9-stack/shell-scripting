@@ -17,7 +17,9 @@ script(){
 		echo "ERROR: script failed to execute $2"
 	else
 		echo "SUCCESS: pakages installed successfully $2"
+    fi
 }
+
 
 echo "installing nginx...................."
 dnf install nginx -y
