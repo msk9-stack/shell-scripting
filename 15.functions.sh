@@ -18,13 +18,12 @@ VALIDATION(){
 		exit 0
 	else
 		echo "the package $2 failed to install"
-		exit 1
 	fi
 }
 
 echo "instaliing mysql......"
 
-dnf install mysql -y
+dnf install mysqll -y
 
 VALIDATION $? "mysql"
 
