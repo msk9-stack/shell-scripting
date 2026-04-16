@@ -18,7 +18,8 @@ VALIDATION(){
 	else
 		echo "the package $2 failed to install"
 		exit 1
-}	fi
+	fi
+}
 
 echo "instaliing mysql......"
 
