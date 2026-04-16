@@ -8,6 +8,7 @@ if [ $USERID -eq 0 ]; then
 	echo "SUCCESS:: verified the root user successfully, about to install the script"
 else
 	echo "ERROR:: only root user can run this script, login as root user"
+    exit 1
 fi
 
 VALIDATION(){
