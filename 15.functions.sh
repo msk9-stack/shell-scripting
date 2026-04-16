@@ -11,7 +11,7 @@ echo "this script will install multiple serverce at once"
 USERID=$(id -u)
 
 if [ $USERID -eq 0 ]; then
-	echo -e "$R SUCCESS $N :: verified the root user $Y successfully, about to install the script"
+	echo -e "$R SUCCESS $N :: verified the root user $Y successfully $N , about to install the script"
 else
 	echo -e "$G ERROR $N :: only root user can run this script, login as root user"
     exit 1
