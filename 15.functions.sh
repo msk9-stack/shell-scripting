@@ -6,15 +6,14 @@ USERID=$(id -u)
 
 if [ $USERID -eq 0 ]; then
 	echo "SUCCESS:: verified the root user successfully, about to install the script"
-	exit 0
 else
 	echo "ERROR:: only root user can run this script, login as root user"
+    exit 1
 fi
 
 VALIDATION(){
 	if [ $1 -eq 0 ]; then
 		echo "the package $2 installed successfully"
-		exit 0
 	else
 		echo "the package $2 failed to install"
 	fi
