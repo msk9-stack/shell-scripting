@@ -25,7 +25,7 @@ VALIDATION(){
 
 echo "instaliing mysql......"
 
-dnf install mysqll -y
+dnf install mysql -y
 
 VALIDATION $? "mysql"
 
