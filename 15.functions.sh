@@ -16,7 +16,6 @@ VALIDATION(){
 		echo "the package $2 installed successfully"
 	else
 		echo "the package $2 failed to install"
-        exit 1
 	fi
 }
 
