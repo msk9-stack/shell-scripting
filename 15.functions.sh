@@ -19,9 +19,9 @@ fi
 
 VALIDATION(){
 	if [ $1 -eq 0 ]; then
-		echo "the package $2 installed $Y successfully $N"
+		echo -e "the package $2 installed $Y successfully $N"
 	else
-		echo "the package $2 $G failed $Nto install"
+		echo -e "the package $2 $G failed $N install"
 	fi
 }
 
