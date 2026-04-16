@@ -13,7 +13,7 @@ fi
 
 VALIDATION(){
 	if [ $1 -eq 0 ]; then
-		echo "the package $2 installed successfully"
+		echo -e "the package $2 installed \e[33m successfully"
 	else
 		echo "the package $2 failed to install"
 	fi
