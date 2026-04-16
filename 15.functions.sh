@@ -9,7 +9,6 @@ if [ $USERID -eq 0 ]; then
 	exit 0
 else
 	echo "ERROR:: only root user can run this script, login as root user"
-    exit 1
 fi
 
 VALIDATION(){
@@ -23,7 +22,7 @@ VALIDATION(){
 
 echo "instaliing mysql......"
 
-dnf install mysqll -y
+dnf install mysql -y
 
 VALIDATION $? "mysql"
 
